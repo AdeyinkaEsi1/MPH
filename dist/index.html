@@ -12,30 +12,39 @@
   />
     <title>dBEATS</title>
 </head>
-<body class="">
+<body class="min-h-screen">
     <main>
 
-        <div class="w-fit relative" >
-            <img src="/src/NEW BANNER.jpg" alt="">
+        <div class=" relative border-4 border-red-500" >
+            <img src="/src/NEW BANNER.jpg" alt="jpeg">
             
-            <div class="absolute top-5 left-5    ">
+            <div class="absolute top-20 left-5    ">
              <a href="" class=" ">
-                <img src="/src/DBEAT LOGO.png" alt="" class=" w-25  ">
+                <img src="/src/DBEAT LOGO.png" alt="png" class=" w-25  ">
                 
              </a>
-             <div >
-                <nav class="absolute top-0 hidden sm:block left-115 lg:left-220">
-                    <ul class="flex  flex-row space-x-4 ">
-                        <li><a href="#" class="hover:text-gray-300 text-black">Home</a></li>
-                        <li><a href="#" class="hover:text-gray-300 text-black">Library</a></li>
-                        <li><a href="#" class="hover:text-gray-300 text-black">Profile</a></li>
-                        <li><a href="#" class="hover:text-gray-300 text-black">SignUp</a></li>
-                        <li><a href="#" class="hover:text-gray-300 text-black">Login</a></li>
-                    </ul>
-                   
-                </nav>
+           </div>
+
+
+           <div>
+            <nav class="absolute top-0 hidden sm:block left-115 lg:left-220">
+                <ul class="flex  flex-row space-x-4 ">
+                    <li><a href="#" class="hover:text-gray-300 text-black">Home</a></li>
+                    <li><a href="#" class="hover:text-gray-300 text-black">Library</a></li>
+                    <li><a href="#" class="hover:text-gray-300 text-black">Profile</a></li>
+                    <li><a href="./create.html" class="hover:text-gray-300 text-black">SignUp</a></li>
+                    <li><a href="./login.html" class="hover:text-gray-300 text-black">Login</a></li>
+                </ul>
+               
+            </nav>
+
+           </div>
+             
+            
+            
+               
                 
-                <div class="absolute top-0 left-75 mb-10">
+                <!-- <div class="absolute top-0 left-75 mb-10">
 
                     <button @click="open = !open" class="md:hidden text-1xl focus:outline-none bg-purple-300 rounded-2xl py-1 px-2">
                         <i class="fa-solid fa-bars text-white"></i>
@@ -50,12 +59,12 @@
                         <li><a href="#" class="hover:text-gray-300 text-black">SignUp</a></li>
                         <li><a href="#" class="hover:text-gray-300 text-black">Login</a></li>
                     </ul>
-                   </div>
-                </div>
+                   </div> -->
+                
             </div>
-            <div class="md:mt-70 sm:  mt-23 ">
-                <button class="bg-purple-300 text-black p-2  ml-20 ">Discover Now</button>
-            </div>
+            <!-- <div class="bottom-0 absolute">
+                <button class="bg-purple-300 text-black p-2  ">Discover Now</button>
+            </div> -->
             
         </div>
         
@@ -63,11 +72,11 @@
     </main>
    
     
-    
+    <!-- how to link attibute togethr inisde one page -->
     <!-- bg-gray-900 text-white -->
     
     <header class="text-center py-10 bg-purple-50">
-        <h1 class="text-4xl font-bold">Discover Your Next Favorite Playlist</h1>
+        <h1 class="text-4xl font-bold"><a href="">Discover Your Next Favorite Playlist`</a></h1>
         <p class="text-gray-400 mt-2">Explore handpicked playlists for every mood</p>
     </header>
 
@@ -107,7 +116,8 @@
     <section class="text-center py-10">
         <h2 class="text-2xl font-bold">Start Listening Now</h2>
         <p class="text-gray-400 mt-2">Sign up to create and save your own playlists.</p>
-        <button class="mt-4 px-6 py-2 bg-purple-300 hover:bg-black rounded-lg text-white font-semibold">Get Started</button>
+        <button class="mt-4 px-6 py-2 bg-purple-300 hover:bg-black rounded-lg text-white font-semibold">
+            <a href="create.html">Get Started</a></button>
     </section>
  
 
